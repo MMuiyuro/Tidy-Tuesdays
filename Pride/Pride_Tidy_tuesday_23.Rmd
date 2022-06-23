@@ -42,7 +42,7 @@ pride <- fortune_aggregates %>%
 ```
 
 
-Using Wordcloud
+# Using Wordcloud
 
 ```{r word_cloud}
 
@@ -55,7 +55,7 @@ wordcloud(words = pride$company, freq = pride$total_contributed,
 png("wordcloud.png", width=12,height=8, units='in', res=300)
 ```
 
-Using Wordcloud2
+# Using Wordcloud2
 
 ```{r word_cloud_2}
 wordcloud2(data=pride, color='random-dark', shape = 'pentagon')
